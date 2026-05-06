@@ -1,0 +1,13 @@
+{
+  "name": "fb-auto-poster",
+  "version": "1.0.0",
+  "description": "Hệ thống tự động đăng bài Facebook từ hàng đợi",
+  "main": "poster.js",
+  "scripts": {
+    "login": "node login.js",
+    "start": "node poster.js"
+  },
+  "dependencies": {
+    "playwright": "^1.40.0"
+  }
+}
